@@ -94,9 +94,9 @@
 		52F3D8A52BD6128A001354E5 /* SwiftAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				52F3D8A62BD6128A001354E5 /* SwiftAnimationApp.swift */,
-				52F3D8A82BD6128A001354E5 /* ContentView.swift */,
-				52F3D8AA2BD6128B001354E5 /* Assets.xcassets */,
+				52F3D8D22BD612D8001354E5 /* App */,
+				52F3D8D12BD612D2001354E5 /* View */,
+				52F3D8D02BD612CC001354E5 /* Resources */,
 				52F3D8AC2BD6128B001354E5 /* Preview Content */,
 			);
 			path = SwiftAnimation;
@@ -125,6 +125,30 @@
 				52F3D8C32BD6128B001354E5 /* SwiftAnimationUITestsLaunchTests.swift */,
 			);
 			path = SwiftAnimationUITests;
+			sourceTree = "<group>";
+		};
+		52F3D8D02BD612CC001354E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D8AA2BD6128B001354E5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52F3D8D12BD612D2001354E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D8A82BD6128A001354E5 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52F3D8D22BD612D8001354E5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D8A62BD6128A001354E5 /* SwiftAnimationApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
